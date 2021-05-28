@@ -5,13 +5,15 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: github.com/Hops2211/test-jekyll/tree/main/Blog
+  path: tree/main/Blog
   label: Blog Root
   create: all
   match: "**/*"
   new_doc_ext: html
+  templates:
+  - blog-post
 - type: document
-  path: github.com/Hops2211/test-jekyll/tree/main/Blog/Engagement
+  path: tree/main/Blog/Engagement
   label: engagement blog
 upload_dir: uploads
 public_path: "/uploads"
