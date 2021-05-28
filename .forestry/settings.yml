@@ -12,9 +12,6 @@ sections:
   new_doc_ext: html
   templates:
   - blog-post
-- type: document
-  path: tree/main/Blog/Engagement
-  label: engagement blog
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
