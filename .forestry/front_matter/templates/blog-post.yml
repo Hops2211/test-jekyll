@@ -30,3 +30,5 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+pages:
+- tree/main/Blog/monotony-and-apathy.html
