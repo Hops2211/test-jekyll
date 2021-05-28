@@ -9,11 +9,10 @@ sections:
   label: Blog Root
   create: all
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: document
   path: github.com/Hops2211/test-jekyll/tree/main/Blog/Engagement
   label: engagement blog
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
