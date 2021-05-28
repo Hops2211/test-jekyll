@@ -78,14 +78,12 @@
       </h3>
 
 
-      {%- if strapi.collections.blogs[0].size > 0 -%}
       <article class="blog-post">
-        <h2 class="blog-post-title">{{ strapi.collections.blogs[0].title }}</h2>
-        <p class="blog-post-meta">{{ strapi.collections.blogs[0].date }} by <a href="#">Raiven</a></p>
+        <h2 class="blog-post-title">Heading title</h2>
+        <p class="blog-post-meta">may 20, 2021 by <a href="#">Raiven</a></p>
 
-        <p>{{ strapi.collections.blogs[0].content }}</p>
+        <p>bunch of crap content</p>
       </article>
-      {%- endif -%}
 
       <nav class="blog-pagination" aria-label="Pagination">
         <a class="btn btn-outline-primary" href="#">Older</a>
